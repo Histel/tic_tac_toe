@@ -65,6 +65,12 @@ int main() {
         }  else if (x_or_o[2] == 'X' && x_or_o[4] == 'X' && x_or_o[6] == 'X') {
             cout << "X is win!\n";
             return 0;
+        } else if (x_or_o[0] == 'X' && x_or_o[3] == 'X' && x_or_o[6] == 'X') {
+            cout << "X is win!\n";
+            return 0;
+        } else if (x_or_o[2] == 'X' && x_or_o[5] == 'X' && x_or_o[8] == 'X') {
+            cout << "X is win!\n";
+            return 0;
         }
 
         if (x_or_o[0] == 'O' && x_or_o[1] == 'O' && x_or_o[2] == 'O') {
@@ -83,6 +89,12 @@ int main() {
             cout << "O is win!\n";
             return 0;
         }  else if (x_or_o[2] == 'O' && x_or_o[4] == 'O' && x_or_o[6] == 'O') {
+            cout << "O is win!\n";
+            return 0;
+        } else if (x_or_o[0] == 'O' && x_or_o[3] == 'O' && x_or_o[6] == 'O') {
+            cout << "O is win!\n";
+            return 0;
+        } else if (x_or_o[2] == 'O' && x_or_o[5] == 'O' && x_or_o[8] == 'O') {
             cout << "O is win!\n";
             return 0;
         }
