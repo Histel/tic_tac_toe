@@ -101,9 +101,9 @@ int main() {
     }
     // if played in a draw
     cout << "\nYou played a draw.\n";
-    cout << "Final desk:\n ";
+    cout << "Final desk:\n\n ";
     cout << "|-" << x_or_o[6] << "-" << "|-" << x_or_o[7] << "-|" << "-" << x_or_o[8] << "-|" << endl;
     cout << "|-" << x_or_o[3] << "-" << "|-" << x_or_o[4] << "-|" << "-" << x_or_o[5] << "-|" << endl;
-    cout << "|-" << x_or_o[0] << "-" << "|-" << x_or_o[1] << "-|" << "-" << x_or_o[2] << "-|" << "\n";
+    cout << "|-" << x_or_o[0] << "-" << "|-" << x_or_o[1] << "-|" << "-" << x_or_o[2] << "-|" << endl;
     return 0;
 }
